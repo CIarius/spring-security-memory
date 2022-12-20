@@ -31,6 +31,30 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-checkstyle-plugin</artifactId>
+    <version>3.2.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.google.code.findbugs/findbugs -->
+<dependency>
+    <groupId>com.google.code.findbugs</groupId>
+    <artifactId>findbugs</artifactId>
+    <version>3.0.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/net.sourceforge.pmd/pmd -->
+<dependency>
+    <groupId>net.sourceforge.pmd</groupId>
+    <artifactId>pmd</artifactId>
+    <version>6.52.0</version>
+    <type>pom</type>
+</dependency>
+		
+		
 	</dependencies>
 
 	<build>
